@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🪐 Тебе секретное кибер-поздравление! ⚡</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #0a0813 0%, #110d24 100%);
+            color: #ffffff;
+            font-family: 'Segoe UI', Roboto, Helvetica, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+        .container {
+            text-align: center;
+            background: rgba(20, 16, 42, 0.6);
+            border: 2px solid #00fff0;
+            padding: 25px;
+            border-radius: 24px;
+            box-shadow: 0 0 50px rgba(0, 255, 240, 0.3);
+            max-width: 90%;
+            width: 450px;
+            backdrop-filter: blur(12px);
+            animation: pulse 3s infinite alternate;
+        }
+        @keyframes pulse {
+            0% { box-shadow: 0 0 30px rgba(0, 255, 240, 0.2); }
+            100% { box-shadow: 0 0 60px rgba(255, 0, 255, 0.4); border-color: #ff00ff; }
+        }
+        h1 {
+            font-size: 22px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            background: linear-gradient(45deg, #00fff0, #ff00ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .video-wrapper {
+            position: relative;
+            width: 100%;
+            padding-bottom: 177.77%;
+            height: 0;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.7);
+        }
+        .video-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        .message-box {
+            margin-top: 15px;
+            font-size: 16px;
+            color: #00fff0;
+            font-weight: bold;
+            background: rgba(0, 0, 0, 0.4);
+            padding: 10px;
+            border-radius: 10px;
+            border-left: 3px solid #ff00ff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🪐 ПРИНЯТ СИГНАЛ ИИ-ПОЗДРАВЛЕНИЯ! ⚡</h1>
+        <div class="video-wrapper">
+            <iframe src="https://youtube.com" allow="autoplay"></iframe>
+        </div>
+        <div class="message-box">🤖 Робот-Ассистент: "Поздравление успешно доставлено в ваш сектор!"</div>
+    </div>
+</body>
+</html>
